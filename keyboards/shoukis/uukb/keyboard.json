@@ -9,6 +9,7 @@
     "console": false,
     "extrakey": true,
     "mousekey": true,
+    "rgb": true,
     "nkro": true
   },
   "bootloader": "atmel-dfu",
