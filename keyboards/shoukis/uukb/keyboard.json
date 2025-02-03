@@ -9,7 +9,7 @@
     "console": false,
     "extrakey": true,
     "mousekey": true,
-    "rgb": true,
+    "rgblight": true,
     "nkro": true
   },
   "bootloader": "atmel-dfu",
@@ -21,30 +21,8 @@
   },
   "diode_direction": "COL2ROW",
   "matrix_pins": {
-    "cols": [
-      "B0",
-      "B1",
-      "B2",
-      "B3",
-      "B7",
-      "D0",
-      "D1",
-      "D2",
-      "D3",
-      "D5",
-      "D4",
-      "F7",
-      "F6",
-      "F5",
-      "F4"
-    ],
-    "rows": [
-      "C7",
-      "C6",
-      "B6",
-      "B5",
-      "B4"
-    ]
+    "rows": ["C7", "C6", "B6", "B5", "B4"],
+    "cols": ["B0", "B1", "B2", "B3", "B7", "D0", "D1", "D2", "D3", "D5", "D4", "F7", "F6", "F5", "F4"]
   },
   "layouts": {
     "LAYOUT": {
@@ -117,5 +95,9 @@
         {"matrix": [4, 14], "x": 14, "y": 4, "w": 1}
       ]
     }
+  },
+  "rgblight": {
+    "led_count": 62,
+    "sleep": true
   }
 }

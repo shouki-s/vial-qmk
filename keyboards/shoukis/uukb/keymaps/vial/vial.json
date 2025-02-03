@@ -1,6 +1,6 @@
 {
   "name": "uukb",
-  "lighting": "qmk_backlight",
+  "lighting": "qmk_rgblight",
   "matrix": {
     "rows": 5,
     "cols": 15
